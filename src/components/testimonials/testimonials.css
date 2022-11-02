@@ -1,0 +1,73 @@
+.testimonials__container {
+  padding: 90px 0;
+}
+.testimonials__textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.testimonials__textbox-heading {
+  text-align: center;
+}
+
+.testimonials__textbox .primary-description {
+  max-width: 656px;
+  text-align: center;
+}
+
+.testimonials__slider {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.testimonials__cards {
+  width: 595px;
+  height: 255px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials__card {
+  position: absolute;
+  top: 0;
+  width: 595px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding: 24px 49px;
+  background-color: #fff;
+  transition: transform 1s;
+}
+.quote {
+  width: 40px;
+}
+
+.testimonials__card-row {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonials__card-author {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.testimonials__card-author-name {
+  font-weight: 700;
+  font-size: 20px;
+}
+.testimonials__card-rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.testimonials__card-rating-text {
+  font-weight: 700;
+  font-size: 18px;
+}

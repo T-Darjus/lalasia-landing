@@ -1,0 +1,46 @@
+.footer {
+}
+.main-container {
+}
+.footer__container {
+  border-top: 1.5px solid #ece4de;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 90px;
+}
+.footer__company {
+  max-width: 450px;
+}
+.footer__company-logo {
+  padding-bottom: 40px;
+}
+.footer__company-description {
+  font-weight: 500;
+  line-height: 180%;
+}
+.footer__links {
+  display: flex;
+  gap: 100px;
+}
+.footer__links-column {
+}
+.footer__links-heading {
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.footer__links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer__link {
+  font-weight: 500;
+  line-height: 180%;
+  border-bottom: 1px solid transparent;
+}
+
+.footer__link:hover {
+  border-bottom: 1px solid #151411;
+}

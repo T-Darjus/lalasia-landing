@@ -1,0 +1,54 @@
+.advantages {
+  padding: 90px 0;
+}
+
+.advantages__container {
+}
+.advantages__text-content {
+  display: flex;
+  justify-content: space-between;
+}
+.advantages__text-box {
+  max-width: 580px;
+}
+.section-name {
+}
+.advantages__text-box .primary-heading {
+  padding-bottom: 50px;
+}
+.advantages__text-box .primary-description {
+  padding-bottom: 65px;
+}
+.advantages__btn {
+  background-color: #518581;
+  font-weight: 700;
+  text-align: center;
+  line-height: 130%;
+  padding: 15px 35px;
+  color: #ffffff;
+}
+.advantages__btn:hover {
+  background-color: #3a5f5c;
+}
+
+.advantages__cards {
+  display: flex;
+  gap: 50px;
+}
+.advantages__card {
+  padding-top: 35px;
+}
+.advantages__images {
+  display: flex;
+  gap: 50px;
+  padding-top: 65px;
+}
+.advantages__img {
+}
+
+.advantages__images img {
+  max-width: 100%;
+}
+.advantages__images div:last-child {
+  margin-top: -250px;
+}

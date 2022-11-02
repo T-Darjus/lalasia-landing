@@ -1,0 +1,41 @@
+.navigation {
+  border-bottom: 2px solid #e3e3e3;
+}
+
+.navigation__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 39px 5px;
+}
+.logo img {
+  height: 42px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.navigation__link {
+  line-height: 180%;
+  font-weight: 500;
+}
+
+.nav-link,
+.link-active {
+  padding: 48px 0;
+}
+
+.link-active {
+  color: #518581;
+  border-bottom: 3px solid #518581;
+}
+.nav-link:hover {
+  border-bottom: 3px solid #151411;
+}
