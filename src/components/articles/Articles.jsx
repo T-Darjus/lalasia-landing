@@ -70,8 +70,8 @@ const Articles = () => {
             <div className="articles__cards">
               {articlesData.map((card, index) => {
                 return (
-                  <a href="/">
-                    <div className="articles__card" key={index}>
+                  <a href="/" key={index}>
+                    <div className="articles__card">
                       <div className="articles__card-img">
                         <img src={card.img} alt="furniture" />
                       </div>

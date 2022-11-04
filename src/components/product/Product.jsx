@@ -15,18 +15,7 @@ const Product = () => {
       setIndex(0);
     }
 
-    if (index === -1) {
-      setMoveCard(848);
-    }
-    if (index === 0) {
-      setMoveCard(0);
-    }
-    if (index === 1) {
-      setMoveCard(-848);
-    }
-    if (index === 2) {
-      setMoveCard(-1696);
-    }
+    setMoveCard(-848 * index);
   }, [index]);
 
   return (
