@@ -2,16 +2,11 @@
   padding: 90px 0 140px;
 }
 
-.articles__container {
-}
 .articles__wrapper {
   display: flex;
   gap: 50px;
 }
-.articles__main-content {
-}
-.articles__textbox {
-}
+
 .articles__textbox-heading {
   max-width: 544px;
 }

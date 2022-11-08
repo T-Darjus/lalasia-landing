@@ -15,7 +15,15 @@ const Product = () => {
       setIndex(0);
     }
 
-    setMoveCard(-848 * index);
+    setMoveCard(
+      (window.innerWidth > 1025
+        ? -848
+        : window.innerWidth > 768
+        ? -600
+        : window.innerWidth > 500
+        ? -500
+        : -520) * index
+    );
   }, [index]);
 
   return (
@@ -48,7 +56,9 @@ const Product = () => {
                       </div>
                       <p className="product__card-name">{card.name}</p>
                       <h4 className="product__card-heading">{card.heading}</h4>
-                      <p className="primary-description">{card.description}</p>
+                      <p className="primary-description text-cut">
+                        {card.description}
+                      </p>
                       <p className="product__card-price">{card.price}</p>
                     </a>
                   </div>
