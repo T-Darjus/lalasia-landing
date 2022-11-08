@@ -44,3 +44,57 @@
 .footer__link:hover {
   border-bottom: 1px solid #151411;
 }
+
+@media screen and (max-width: 1025px) {
+  .footer__links {
+    gap: 80px;
+  }
+  .footer__company {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__container {
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    padding-left: 100px;
+  }
+  .footer__links {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .footer__container {
+    padding-left: unset;
+  }
+  .footer__company-logo img {
+    height: 40px;
+  }
+  .footer__company-description {
+    font-size: 16px;
+  }
+  .footer__links-heading {
+    font-size: 18px;
+  }
+  .footer__link {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer__company-description {
+    font-size: 14px;
+  }
+  .footer__links {
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .footer__links-heading {
+    font-size: 16px;
+  }
+  .footer__link {
+    font-size: 14px;
+  }
+}

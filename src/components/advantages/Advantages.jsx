@@ -39,10 +39,10 @@ const Advantages = () => {
             </div>
           </div>
           <div className="advantages__images">
-            <div className="advantages__img">
+            <div className="advantages__img ibg">
               <img src={tools} alt="working tools" />
             </div>
-            <div className="advantages__img">
+            <div className="advantages__img ibg">
               <img src={furniture} alt="furniture" />
             </div>
           </div>

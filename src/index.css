@@ -39,6 +39,7 @@ body {
   font-family: "eudoxus sans", Arial, sans-serif;
   font-size: 18px;
   background-color: #fafafa;
+  overflow-x: hidden;
 }
 input,
 button,
@@ -107,4 +108,36 @@ a {
   font-weight: 500;
   line-height: 180%;
   color: #afadb5;
+}
+
+@media screen and (max-width: 1025px) {
+  .section-name {
+    font-size: 16px;
+  }
+  .primary-heading {
+    font-size: 38px;
+  }
+
+  .primary-description {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .primary-heading {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section-name {
+    font-size: 14px;
+  }
+  .primary-heading {
+    font-size: 26px;
+  }
+
+  .primary-description {
+    font-size: 14px;
+  }
 }

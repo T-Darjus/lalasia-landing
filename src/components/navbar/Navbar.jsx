@@ -1,4 +1,6 @@
 import logo from "../../assets/logos/logo-name.png";
+import menuIcon from "../../assets/icons/menu-icon.svg";
+import menuClose from "../../assets/icons/menu-close.svg";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
@@ -80,7 +82,7 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
-          {/* <button
+          <button
             className="mobile__menu"
             onClick={() => {
               setIsOpen(!isOpen);
@@ -96,7 +98,7 @@ const Navbar = () => {
               src={menuClose}
               alt="close menu icon"
             />
-          </button> */}
+          </button>
         </div>
       </div>
     </nav>
