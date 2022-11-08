@@ -11,18 +11,18 @@ const Product = () => {
     if (index >= productData.length - 2) {
       setIndex(0);
     }
-    if (index === -2) {
+    if (index === -1) {
       setIndex(0);
     }
 
     setMoveCard(
       (window.innerWidth > 1025
-        ? -848
+        ? -424
         : window.innerWidth > 768
-        ? -600
+        ? -315
         : window.innerWidth > 500
-        ? -500
-        : -520) * index
+        ? -270
+        : -235) * index
     );
   }, [index]);
 

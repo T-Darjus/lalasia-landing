@@ -19,11 +19,11 @@
 .product__slider {
   padding-top: 50px;
   position: relative;
+  overflow: hidden;
 }
 
 .product__cards {
   display: flex;
-  justify-content: center;
   gap: 30px;
   transition: all 0.5s;
 }
