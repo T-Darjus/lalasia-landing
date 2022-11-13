@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero__container main-container">
         <div className="hero__content">
           <div className="hero__textbox">
-            <h1 className="hero__textbox-heading">
+            <h1 className="main-heading">
               Discover Furniture With High Quality Wood
             </h1>
             <p className="hero__textbox-text">

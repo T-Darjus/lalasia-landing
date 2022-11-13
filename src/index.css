@@ -88,6 +88,10 @@ h6 {
   margin: 0 auto;
   padding: 0 15px;
 }
+.main-heading {
+  font-weight: 700;
+  font-size: 64px;
+}
 
 a {
   color: #151411;
@@ -109,8 +113,53 @@ a {
   line-height: 180%;
   color: #afadb5;
 }
+/* slider button */
+.slider-btn {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(21, 20, 17, 0.6);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.slider-btn:hover {
+  background: rgba(21, 20, 17, 0.8);
+}
 
+.slider-btn svg {
+  height: 24px;
+  width: 24px;
+}
+
+.btn--left {
+  top: 50%;
+  left: 20px;
+}
+.btn--right {
+  top: 50%;
+  right: 20px;
+}
+
+/* IBG */
+.ibg {
+  position: relative;
+}
+.ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
 @media screen and (max-width: 1025px) {
+  .main-heading {
+    font-size: 48px;
+  }
   .section-name {
     font-size: 16px;
   }
@@ -121,6 +170,10 @@ a {
   .primary-description {
     font-size: 16px;
   }
+  .slider-btn {
+    width: 48px;
+    height: 48px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -128,8 +181,24 @@ a {
     font-size: 32px;
   }
 }
-
+@media screen and (max-width: 769px) {
+  .main-heading {
+    font-size: 40px;
+  }
+  .slider-btn {
+    width: 46px;
+    height: 46px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-heading {
+    font-size: 36px;
+  }
+}
 @media screen and (max-width: 500px) {
+  .main-heading {
+    font-size: 26px;
+  }
   .section-name {
     font-size: 14px;
   }
@@ -139,5 +208,11 @@ a {
 
   .primary-description {
     font-size: 14px;
+  }
+  .btn--left {
+    left: 10px;
+  }
+  .btn--right {
+    right: 10px;
   }
 }

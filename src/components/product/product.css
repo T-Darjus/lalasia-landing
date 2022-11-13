@@ -60,35 +60,6 @@
   padding-top: 18px;
 }
 
-.product__slider-btn {
-  width: 52px;
-  height: 52px;
-  position: absolute;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(21, 20, 17, 0.6);
-  border-radius: 50%;
-}
-.product__slider-btn:hover {
-  background: rgba(21, 20, 17, 0.8);
-}
-
-.product__slider-btn svg {
-  height: 24px;
-  width: 24px;
-}
-
-.btn--left {
-  top: 50%;
-  left: 20px;
-}
-.btn--right {
-  top: 50%;
-  right: 20px;
-}
-
 @media screen and (max-width: 1025px) {
   .product__container {
     padding: 60px 0;
@@ -114,15 +85,10 @@
     font-size: 20px;
   }
 
-  .product__slider-btn {
-    width: 48px;
-    height: 48px;
-  }
-
-  .btn--left {
+  .product__slider .btn--left {
     top: 40%;
   }
-  .btn--right {
+  .product__slider .btn--right {
     top: 40%;
   }
 }
@@ -151,11 +117,6 @@
   .product__card-price {
     font-size: 18px;
   }
-
-  .product__slider-btn {
-    width: 46px;
-    height: 46px;
-  }
 }
 
 @media screen and (max-width: 580px) {
@@ -183,11 +144,3 @@
 /* TO DO: fix slider */
 /* TO DO: fix slider */
 /* TO DO: fix slider */
-@media screen and (max-width: 500px) {
-  .btn--left {
-    left: 10px;
-  }
-  .btn--right {
-    right: 10px;
-  }
-}

@@ -2,6 +2,8 @@ import React from "react";
 import { productData } from "./productData";
 import "./product.css";
 import { useState, useEffect } from "react";
+import ArrowLeft from "../arrows/ArrowLeft";
+import ArrowRight from "../arrows/ArrowRight";
 
 const Product = () => {
   const [moveCard, setMoveCard] = useState(0);
@@ -66,39 +68,15 @@ const Product = () => {
               })}
               <button
                 onClick={() => setIndex(index + 1)}
-                className="product__slider-btn btn--left"
+                className="slider-btn btn--left"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M15.75 19.5L8.25 12l7.5-7.5"
-                  />
-                </svg>
+                <ArrowLeft />
               </button>
               <button
                 onClick={() => setIndex(index - 1)}
-                className="product__slider-btn btn--right"
+                className="slider-btn btn--right"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
-                  />
-                </svg>
+                <ArrowRight />
               </button>
             </div>
           </div>

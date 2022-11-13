@@ -34,7 +34,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive ? "link-active" : "nav-link"
                 }
-                to="/product"
+                to="/products"
                 onClick={() => {
                   setIsOpen(!isOpen);
                 }}
