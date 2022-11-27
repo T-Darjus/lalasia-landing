@@ -1,0 +1,203 @@
+.portfolio {
+  padding: 90px 0 90px;
+}
+
+.portfolio__container {
+}
+.portfolio__textbox {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.portfolio__textbox-heading {
+  max-width: 492px;
+}
+.section-name {
+}
+.primary-heading {
+}
+.portfolio__textbox-description {
+  max-width: 480px;
+}
+.primary-description {
+}
+.portfolio-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  color: #518581;
+  border-bottom: 1.5px solid transparent;
+  transition: all 0.3s;
+}
+.portfolio-link:hover {
+  border-bottom: 1.5px solid #518581;
+}
+
+.portfolio__content {
+  padding-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+.portfolio__content-main,
+.portfolio__content-secondary-item--1,
+.portfolio__content-secondary-item--2 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.portfolio__content-main {
+  height: 630px;
+  max-width: 505px;
+  background: url("../../../public/images/services/image-1.png") no-repeat;
+  background-size: cover;
+}
+.portfolio__content-heading {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  padding-bottom: 6px;
+}
+.portfolio__content-description {
+  max-width: 430px;
+  font-weight: 500;
+  line-height: 180%;
+  color: #ffffff;
+  opacity: 0.7;
+  padding-bottom: 14px;
+}
+
+.portfolio__content-link {
+  display: inline-block;
+  max-width: 90px;
+  font-weight: 500;
+  line-height: 130%;
+  color: #ffffff;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.portfolio__content-link:hover {
+  border-bottom: 1px solid #ffffff;
+}
+.portfolio__content-secondary {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 30px;
+}
+
+.portfolio__content-secondary-item--1 {
+  height: 300px;
+  background: url("../../../public/images/services/image-2.png") no-repeat
+    center;
+  background-size: cover;
+}
+
+.portfolio__content-secondary-item--2 {
+  height: 300px;
+  background: url("../../../public/images/services/image-3.png") no-repeat
+    center;
+  background-size: cover;
+}
+
+/*                                  */
+/*                                  */
+
+@media screen and (max-width: 1025px) {
+  .portfolio__textbox-description {
+    max-width: 450px;
+  }
+  .portfolio__content-main {
+    height: 600px;
+    max-width: 430px;
+    background-size: cover;
+  }
+  .portfolio__content-secondary-item--1,
+  .portfolio__content-secondary-item--2 {
+    height: 285px;
+  }
+  .portfolio__content-heading {
+    font-size: 22px;
+  }
+  .portfolio__content-description {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .portfolio__container {
+    padding-left: 100px;
+  }
+
+  .portfolio__textbox {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .portfolio__content {
+    flex-direction: column;
+  }
+  .portfolio__content-main {
+    background-position: center;
+    height: 400px;
+    max-width: unset;
+  }
+
+  .portfolio__content-secondary-item--1,
+  .portfolio__content-secondary-item--2 {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .portfolio__container {
+    padding-left: unset;
+  }
+  .portfolio__content-heading {
+    font-size: 20px;
+  }
+  .portfolio__content-description {
+    font-size: 14px;
+  }
+  .portfolio__content-link {
+    font-size: 16px;
+    max-width: 78px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .portfolio {
+    padding: 50px 0 70px;
+  }
+  .portfolio__textbox-heading {
+    max-width: 400px;
+  }
+
+  .portfolio__content-main,
+  .portfolio__content-secondary-item--1,
+  .portfolio__content-secondary-item--2 {
+    padding: 20px;
+  }
+
+  .portfolio__content-heading {
+    font-size: 18px;
+  }
+  .portfolio__content-description {
+    font-size: 12px;
+  }
+  .portfolio__content-link {
+    font-size: 14px;
+    max-width: 68px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .portfolio__textbox-heading {
+    max-width: 320px;
+  }
+}
